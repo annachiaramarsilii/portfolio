@@ -1,0 +1,36 @@
+/* Stili iniziali - Test e formattazione base */
+
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 11pt;
+    margin: 40px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #000;
+}
+
+/* Impedisce alle foto di uscire dallo schermo */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Stile base per la navigazione */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 5px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
