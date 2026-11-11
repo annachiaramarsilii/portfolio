@@ -1,0 +1,82 @@
+/* ==========================================================================
+   1. IMPOSTAZIONI GENERALI E DI BASE
+   ========================================================================== */
+body {
+    padding: 30px; 
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 10.5pt;
+}
+
+/* ==========================================================================
+   2. STRUTTURA MENU (Flexbox per allineare i testi)
+   ========================================================================== */
+.projects {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.projects-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    padding: 4px 0;
+}
+
+/* ==========================================================================
+   3. TESTI PROGETTI
+   ========================================================================== */
+.info-container {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.text, .team, .year, .type {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.text { width: 100%; }
+.num { width: 50px; font-style: italic; } 
+.words { width: 80%; } 
+
+/* ==========================================================================
+   4. GALLERIA FOTOGRAFICA
+   ========================================================================== */
+.gallery {
+    padding-bottom: 40px;
+}
+
+img {
+    max-width: 80%; /* Le foto non prendono tutto lo schermo */
+    height: auto;
+    display: block; 
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   5. SEZIONE ABOUT (IN BASSO)
+   ========================================================================== */
+.down {
+    padding-top: 20px;
+    border-top: 1px solid #000;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
